@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin:50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color:  #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color:  #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color:  #11999E;
+  font-weight: bold;
+}
+a{
+  font-family: 'Montserrat', sans-serif;
+  color:  #11999E;
+  text-decoration: none;
+}
+
+.first-container {
+  background: #EAF6F6;
+  padding: 100px;
+  position: relative;
+}
+.skill-row{
+  width:50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.design-img{
+  width: 15%;
+  float:left;
+  margin-right: 30px;
+}
+.develope-img{
+  width: 15%;
+  float:right;
+  margin-left: 30px;
+}
+.intro-paragraph{
+  width: 50%;
+  margin: auto;
+}
+hr{
+  border:6px #EAF6F6 dotted;
+  width: 4%;
+  border-bottom: none;
+  margin:50px auto;
+}
+.contact-me{
+  margin:50px auto;
+  line-height: 2;
+  width: 50%;
+}
+.btn{
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+.middle-container{
+  margin-bottom: 50px;
+}
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+.profile{
+  width:50%;
+  margin:50px auto;
+}
+.contact-description{
+  margin:50px auto;
+}
+.bottom-container {
+ background: #66BFBF;
+ margin:50px auto 0 auto;
+ padding: 25px;
+}
+.footer-link{
+  margin:10px 20px;
+}
+.footer-link:hover{
+  color: #EAF6F6;
+}
+.copy-right{
+  padding: 20px 0;
+  color: #EAF6F6;
+  font-size:0.75rem;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
